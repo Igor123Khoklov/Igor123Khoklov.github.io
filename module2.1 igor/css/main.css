@@ -1,0 +1,38 @@
+.img-box{
+    column-count:4 ;
+}
+
+.image{
+   max-width: 100%;
+   display: block;
+
+}
+.img_link{
+display:block;
+opacity: 0.8;
+transition: 0,8s;
+
+}
+
+.img_link+.img_link{
+   margin: 3px;
+
+}
+.img_link:hover{
+   opacity: 1;
+   
+}
+
+@font-face{
+   font-family:PressStart2P-Regular;
+   scr: url(../fonts/PressStart2P-Regular.ttf);
+
+}
+body{
+    background-color:#a137de ;
+     font-family: PressStart2P-Regular;
+}
+h1{
+   font-size: 50px;
+   text-align: center;
+}
